@@ -8,10 +8,7 @@ var studentSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    studentId: {
-        type: String,
-        required: true
-    }
+
 
 });
 
