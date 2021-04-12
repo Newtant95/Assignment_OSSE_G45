@@ -6,11 +6,9 @@ var mongoose = require('mongoose');
 var studentSchema = mongoose.Schema({
     name: {
         type: String,
-        required: true
     },
     studentId: {
         type: String,
-        required: true
     }
 
 });
