@@ -6,7 +6,6 @@ var mongoose = require('mongoose');
 var studentSchema = mongoose.Schema({
     name: {
         type: String,
-        required: true
     },
     studentId: {
         type: String,
@@ -17,7 +16,11 @@ var studentSchema = mongoose.Schema({
         required: true
     },
     gender: String,
-
+    mobile: String,
+    create_date: {
+        type: Date,
+        default: string
+    }
 
 });
 
