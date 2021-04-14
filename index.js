@@ -23,7 +23,7 @@ mongoose.connect('mongodb://localhost/student_management', { useNewUrlParser: tr
 
 //const db = mongoose.connection();
 
-
+mongoose.connect('mongodb://localhost/student_management', { useNewUrlParser: true }).then(() => console.log("MongoDB connected...")).catch(() => console.log("not connected"));
 
 // Use Api routes in the App
 app.use('/', apiRoutes)
