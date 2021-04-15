@@ -11,7 +11,10 @@ router.get('/', function (req, res) {
 });
 router.post('/student', controller.create);
 
+//Express_Route_Settings
+
 router.get('/students', controller.getAllStudents)
+
 
 // Export API routes
 module.exports = router;
